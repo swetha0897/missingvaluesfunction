@@ -21,11 +21,9 @@ devtools::install_github(“swetha0897/missingvaluesfunction”)
   demonstrate functionality.
 - **Usage Examples**: Code snippets show how to use the function for
   different grouping scenarios.
-- **Description** of the file can be found in the `missingvalues` folder
-- **Function** can be found as a `missingvalues.R` file in the R folder
-  withint `missingvalues` folder
-- **tests** folder within `missing values folder` includes the tests
-  done on a sample dataset.
+- **Description** gives a detailed description of the missing values function.
+- **Function**  can be found as a `missingvalues.R` file in the R folder
+- **tests** folder which includes the tests done on a sample dataset.
 
 # Key Features
 
