@@ -1,0 +1,32 @@
+Package: missingvalues
+Type: Package
+Title: Grouped Missing Value Analysis for Data Quality Assessment
+Version: 0.1.1
+Author: [Swetha Srinivasaraghavan]
+Maintainer: [Swetha Srinivasaraghavan] <swetha97@student.ubc.ca>
+Description: A systematic approach to analyzing missing data in a dataset by
+    summarizing missing values within specified groupings. This package is
+    particularly useful for exploratory data analysis, allowing researchers
+    and analysts to detect and visualize patterns of missing data across
+    different categories or levels in a dataset.
+    The main function, count_all_missing_by_group , calculates missing values
+    in each column, grouped by a designated categorical variable. Users receive
+    a summary data frame that highlights the count of missing values per group,
+    enabling a streamlined inspection of data quality and aiding in decisions
+    about data cleaning or imputation needs.
+    This package is particularly useful for data quality assessment in fields
+    like bioinformatics, social sciences, or business analytics, where
+    understanding missing patterns can be essential to robust analysis
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Imports: 
+    dplyr,
+    tibble
+Suggests: 
+    testthat (>= 3.0.0),
+    datasets,
+    stats
+Config/testthat/edition: 3
+
